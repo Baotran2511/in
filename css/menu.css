@@ -1,0 +1,43 @@
+h1{
+    font-family: "Open Sans Semibold";
+    font-size: 52px;
+    margin-bottom:70px ;
+}
+h2{
+    font-family: "Open Sans Regular";
+    font-size: 24px;
+}
+.title-sub{
+    font-family: "Open Sans Regular";
+    font-size: 15px;
+    color:#7c7c7d
+}
+.fa-share-alt:before {
+    content: "\f1e0";
+    font-size: 40px;
+}
+.fa-compass:before {
+    content: "\f14e";
+    font-size: 40px;
+}
+.fa-briefcase:before {
+    content: "\f0b1";
+    font-size: 40px;
+}
+.button ul{
+    display: flex;
+    justify-content: center;
+}
+.button ul li {
+    list-style: none;
+    margin: 50px
+}
+.button ul li button{
+    height: 55px;
+    border-radius: 15px;
+    font-family: "Open Sans Semibold";
+    font-size: 18px;
+}
+.button ul li button:hover, .button ul li button:focus{
+    outline: none;
+}
